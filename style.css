@@ -15,17 +15,36 @@ html, body {
   height: 100vh;
   background-color: #fff;
 }
+
+.top {
+  height: 50%;
+}
 .main-left, .main-right {
   width: 50%;
+}
+.main-left {
+  height: 100%;
 }
 
 .bottom {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  height: 50%;
 }
 .bottom-left, .bottom-right {
   width: 50%;
+}
+.bottom-left .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 7vw;
+}
+
+.imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .img {
