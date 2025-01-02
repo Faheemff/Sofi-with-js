@@ -42,6 +42,17 @@ html, body {
   gap: 7vw;
 }
 
+.heading .span {
+  font-size: 1vw;
+  color: gray;
+}
+
+.n {
+  font-size: 1.5vw;
+  color: rgb(41, 40, 40);
+  margin-left: 0.6vw;
+}
+
 .imgs {
   display: flex;
   flex-direction: column;
@@ -56,4 +67,10 @@ html, body {
 .img {
   height: 50px;
   width: 60px;
+}
+
+.bottom-right {
+  display: flex;
+   flex-direction: column;
+   gap: 8vw;
 }
